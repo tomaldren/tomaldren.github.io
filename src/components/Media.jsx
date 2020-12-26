@@ -13,7 +13,7 @@ function Media(props) {
       <div className="main-container">
         <h1 className="main-title">media</h1>
       </div>
-      <Grid container>
+      <Grid container className="media-grid">
         <Zoom in={true} timeout={500}>
           <Grid item xs={12} sm={6} lg={3}>
             <Thumbnail

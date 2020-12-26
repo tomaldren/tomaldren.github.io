@@ -35,7 +35,7 @@ function About(props) {
         <p className="icon">
           <HeadsetIcon className="headphone-icon" fontSize="large" />
         </p>
-        <h2 className="home-subtitle">
+        <h2 className="home-contact-container home-subtitle">
           For more information,
           <Link to="/contact" className="home-contact-link">
             {" "}

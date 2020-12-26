@@ -7,7 +7,7 @@ function ViewMedia(props) {
       <h1 className="main-title">{props.title}</h1>
       <h2 className="composer">{props.composer}</h2>
       <ReactPlayer className="video"
-      width="75%"
+      width="100%"
       url={props.link}
       />
     </div>

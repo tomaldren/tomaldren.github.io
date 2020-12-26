@@ -244,7 +244,7 @@ li {
 }
 
 .video {
-  margin: 7vw 10vw 2vw;
+  margin: 10vw 5vw 5vw 0;
 }
 
 .welcome {
@@ -281,6 +281,7 @@ li {
 
   .home-list {
     padding-bottom: 12vw;
+    padding-left: 15px;
   }
 
   .home-subtitle {
@@ -330,6 +331,10 @@ li {
     padding: 20% 0;
   }
 
+  .home-list {
+    padding-left: 0;
+  }
+
   .home-subtitle {
     padding: 20% 0 15%;
     font-size: 2rem;
@@ -343,6 +348,10 @@ li {
   .main-title {
     font-size: 1.75rem;
     /* padding-bottom: 25%; */
+  }
+
+  .media-grid {
+    padding-left: 10vw;
   }
 
   .subtitle {

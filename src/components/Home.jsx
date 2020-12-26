@@ -1,7 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Slide from "@material-ui/core/Slide";
-import { Link } from "react-router-dom";
 import HeadsetIcon from "@material-ui/icons/Headset";
 
 function Home(props) {
@@ -76,10 +75,10 @@ function Home(props) {
         <div className="home-contact-container">
           <h2 className="home-subtitle">
             For pricing and more information,
-            <Link to="mailto:info@tractionmusic.co.uk" className="home-contact-link">
+            <a href="mailto:info@tractionmusic.co.uk" className="home-contact-link">
               {" "}
               contact us{" "}
-            </Link>
+            </a>
             with your project details
           </h2>
         </div>

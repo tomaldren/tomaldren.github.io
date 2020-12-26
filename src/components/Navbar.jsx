@@ -5,7 +5,7 @@ import Media from "./Media";
 import Home from "./Home";
 import RoadToBethlehem from "./RoadToBethlehem";
 import Oblivion from "./Oblivion";
-import ThisIsMe from "./ThisIsMe";
+import IBelieve from "./IBelieve";
 import StarryNight from "./StarryNight";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Hidden from "@material-ui/core/Hidden";
@@ -92,7 +92,7 @@ function Navbar() {
         <Route exact path="/" component={Home} />
         <Route path="/roadtobethlehem" component={RoadToBethlehem} />
         <Route path="/oblivion" component={Oblivion} />
-        <Route path="/thisisme" component ={ThisIsMe} />
+        <Route path="/ibelieveinfatherchristmas" component ={IBelieve} />
         <Route path="/starrynight" component={StarryNight} />
       </div>
     </BrowserRouter>

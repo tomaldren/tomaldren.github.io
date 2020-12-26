@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Thumbnail from "./Thumbnail";
 import roadToBethlehem from "../img/road-to-bethlehem.png";
 import oblivion from "../img/oblivion.png";
-import thisIsMe from "../img/this-is-me.png";
+import iBelieve from "../img/father-christmas.png";
 import starryNight from "../img/starry-night.png";
 import Zoom from "@material-ui/core/Zoom";
 
@@ -35,9 +35,9 @@ function Media(props) {
           <Zoom in={true} timeout={1000}>
           <Grid item xs={12} sm={6} lg={3}>
             <Thumbnail
-              link="/thisisme"
-              image={thisIsMe}
-              title='this is me from "the greatest showman"'
+              link="/ibelieveinfatherchristmas"
+              image={iBelieve}
+              title='i believe in father christmas'
             />
           </Grid>
           </Zoom>

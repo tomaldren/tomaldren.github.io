@@ -51,20 +51,14 @@ li {
   top: 2vw;
 }
 
+.contact {
+  padding-top: 0;
+  height: 90vh;
+}
+
 .contact-container {
   text-align: center;
   padding: 15vw;
-}
-
-.contact-form {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 30px;
-}
-
-.contact-submit-button {
-  position: relative;
-  top: 25px;
 }
 
 .continue {
@@ -251,7 +245,7 @@ li {
   }
 
   .contact-container {
-    padding-top: 0;
+    padding: 20vw 15vw;
   }
 
   .continue {
@@ -324,6 +318,10 @@ li {
     font-size: 1.3rem;
   }
 
+  .contact {
+    height: 85vh;
+  }
+
   .continue {
     bottom: 5vw;
   }
@@ -352,7 +350,7 @@ li {
   }
 
   .main-title {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 
   .media-grid {

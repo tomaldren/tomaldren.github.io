@@ -314,12 +314,20 @@ li {
     padding: 15% 0 20%;
   }
 
+  .about-subtitle {
+    padding-top: 30%;
+  }
+
   .body-text {
     font-size: 1.3rem;
   }
 
   .contact {
-    height: 85vh;
+    height: 82vh;
+  }
+
+  .contact-container {
+    padding-top: 20vw;
   }
 
   .continue {
@@ -339,6 +347,10 @@ li {
     padding-left: 0;
   }
 
+  .home-title {
+    font-size: 1.75rem;
+  }
+
   .home-subtitle {
     padding-bottom: 15%;
     font-size: 2rem;
@@ -350,7 +362,7 @@ li {
   }
 
   .main-title {
-    font-size: 2rem;
+    font-size: 9vw;
   }
 
   .media-grid {

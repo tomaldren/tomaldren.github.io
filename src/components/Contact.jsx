@@ -5,7 +5,7 @@ function Contact(props) {
     <div className="contact main">
       <div className="contact-container">
         <h1 className="main-title">contact us</h1>
-        <h2 className="home-subtitle">
+        <h2 className="home-subtitle about-subtitle">
           For pricing and more information, email us
           <a href="mailto:info@tractionmusic.co.uk" className="home-contact-link">
             {" "}

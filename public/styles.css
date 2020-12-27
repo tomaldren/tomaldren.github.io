@@ -236,20 +236,13 @@ li {
   opacity: 90%;
 }
 
-.view-music {
-  max-width: 75%;
-  display: block;
-  margin: auto;
-  padding-bottom: 5vw;
-}
-
 .video {
   margin: 10vw 5vw 5vw 0;
 }
 
 .welcome {
   padding-bottom: 10vw;
-  background-size: cover;
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 960px) {
@@ -307,13 +300,21 @@ li {
     max-width: 150%;
     bottom: 3vw;
   }
-
-  .view-music {
-    max-width: 90%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
+  .about-comment {
+    padding: 15% 0;
+  }
+
+  .about-contact {
+    padding: 15% 0;
+  }
+
+  .about-text {
+    padding: 15% 0 20%;
+  }
+
   .body-text {
     font-size: 1.3rem;
   }
@@ -336,7 +337,7 @@ li {
   }
 
   .home-subtitle {
-    padding: 20% 0 15%;
+    padding-bottom: 15%;
     font-size: 2rem;
   }
 
@@ -373,11 +374,11 @@ li {
     bottom: 0;
   }
 
-  .welcome {
-    padding: 33% 0 50%;
+  .video {
+    padding: 10% 0;
   }
 
-  .view-music {
-    max-width: 100%;
+  .welcome {
+    padding: 33% 0;
   }
 }

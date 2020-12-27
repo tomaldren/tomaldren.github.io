@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import HeadsetIcon from "@material-ui/icons/Headset";
 
 function About(props) {
@@ -35,12 +34,12 @@ function About(props) {
         <p className="icon">
           <HeadsetIcon className="headphone-icon" fontSize="large" />
         </p>
-        <h2 className="home-contact-container home-subtitle">
+        <h2 className="home-contact-container about-contact home-subtitle">
           For more information,
-          <Link to="/contact" className="home-contact-link">
+          <a href="mailto:info@tractionmusic.co.uk" className="home-contact-link">
             {" "}
             contact us{" "}
-          </Link>
+          </a>
           with your enquiry
         </h2>
       </div>

@@ -241,8 +241,8 @@ li {
 }
 
 .welcome {
-  padding-bottom: 10vw;
   overflow: hidden;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 960px) {
@@ -300,6 +300,11 @@ li {
     width: 105%;
     bottom: 3vw;
   }
+
+  .welcome-container {
+    margin-top: 10vh;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -383,6 +388,10 @@ li {
   }
 
   .welcome {
-    padding: 50% 0;
+    padding: 0;
+  }
+
+  .welcome-container {
+    margin-top: 25vh;
   }
 }

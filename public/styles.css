@@ -297,7 +297,7 @@ li {
   }
 
   .title-img {
-    max-width: 150%;
+    width: 105%;
     bottom: 3vw;
   }
 }
@@ -348,7 +348,6 @@ li {
 
   .main-title {
     font-size: 1.75rem;
-    /* padding-bottom: 25%; */
   }
 
   .media-grid {
@@ -366,12 +365,17 @@ li {
   }
 
   .title {
-    font-size: 10vw;
+    font-size: 13vw;
+    top: 23vw;
   }
 
   .title-img {
-    max-width: 200%;
+    width: 115%;
     bottom: 0;
+  }
+
+  .subtitle {
+    bottom: 25vw;
   }
 
   .video {
@@ -379,6 +383,6 @@ li {
   }
 
   .welcome {
-    padding: 33% 0;
+    padding: 50% 0;
   }
 }

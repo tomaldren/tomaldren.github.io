@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import Welcome from "./Welcome";
 import Zoom from "@material-ui/core/Zoom";
 import Fab from "@material-ui/core/Fab";
 import Box from "@material-ui/core/Box";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import usePersistedState from "./usePersistedState";
 
 function App() {
-  
-  const [clicked, setClicked] = useState(false);
+
+  const [clicked, setClicked] = usePersistedState("clicked", "false");
 
   function handleClick() {
     setClicked(true);

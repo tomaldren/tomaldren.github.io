@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.12f7ea2e.chunk.js",
+    "main.js.map": "/static/js/main.12f7ea2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba6023e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba6023e6.js.map",
+    "static/js/2.f7ce0534.chunk.js": "/static/js/2.f7ce0534.chunk.js",
+    "static/js/2.f7ce0534.chunk.js.map": "/static/js/2.f7ce0534.chunk.js.map",
+    "index.html": "/index.html",
+    "static/media/alt-title-img.b5146be4.png": "/static/media/alt-title-img.b5146be4.png",
+    "static/media/father-christmas.ed3efe2a.png": "/static/media/father-christmas.ed3efe2a.png",
+    "static/media/logo.3ee3823c.png": "/static/media/logo.3ee3823c.png",
+    "static/media/oblivion.0b893514.png": "/static/media/oblivion.0b893514.png",
+    "static/media/road-to-bethlehem.30dbe914.png": "/static/media/road-to-bethlehem.30dbe914.png",
+    "static/media/starry-night.04329869.png": "/static/media/starry-night.04329869.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba6023e6.js",
+    "static/js/2.f7ce0534.chunk.js",
+    "static/js/main.12f7ea2e.chunk.js"
+  ]
+}

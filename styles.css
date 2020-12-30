@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  background-color: black;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+li {
+  padding: 10px 0;
+}
+
+.about-comment {
+  font-size: 3rem;
+  padding: 5vw 0 3vw;
+}
+
+.about-contact {
+  font-size: 3rem;
+  padding: 5vw 0 5vw;
+}
+
+.about-text {
+  padding: 3vw 0 5vw;
+}
+
+.audio-player {
+  display: block;
+  margin: auto;
+  padding: 6vw 0;
+  max-width: 100%;
+}
+
+.body-text {
+  font-size: 2rem;
+}
+
+.button-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.composer {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3vw;
+  position: relative;
+  top: 2vw;
+}
+
+.contact {
+  padding-top: 0;
+  height: 90vh;
+}
+
+.contact-container {
+  text-align: center;
+  padding: 15vw;
+}
+
+.continue {
+  position: relative;
+  bottom: 18vw;
+}
+
+.dotted-line {
+  border: none;
+  border-top: 1vw dotted #ff914d;
+  width: 100%;
+}
+
+.dotted-line-sm {
+  width: 6vw;
+}
+
+.fade-background {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  color:  #ff914d;
+}
+
+.headphone-icon {
+  color: #ff914d;
+  margin: auto;
+}
+
+.home-comment {
+  font-size: 3rem;
+  padding: 5vw 0;
+}
+
+.home-contact-container {
+  text-align: center;
+  padding-bottom: 3vw;
+}
+
+.home-contact-link {
+  text-decoration: none;
+  color: #ff914d;
+}
+
+.home-contact-link:hover {
+  color: white;
+}
+
+.home-list {
+  list-style-type: none;
+  padding-bottom: 4vw;
+}
+
+.home-subtitle {
+  font-size: 3rem;
+  padding: 5vw 0 2vw;
+}
+
+.icon {
+  text-align: center;
+}
+
+.main-container {
+  padding: 4vw 8vw;
+}
+
+.main {
+  background: url("./img/violin-edit.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: left;
+}
+
+.main-title {
+  font-size: 4rem;
+  font-family: "Major Mono Display", monospace;
+}
+
+.media-grid {
+  padding-bottom: 6vw;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+.navigation {
+  float: right;
+  background-color: transparent;
+  text-align: right;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.nav-logo {
+  float: right;
+  height: 75px;
+  margin-right: 25px;
+}
+
+.nav-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.sm-nav {
+  float: right;
+}
+
+.sm-nav-link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 3vw;
+  position: relative;
+  bottom: 26vw;
+  left: 6vw;
+}
+
+.thumbnail {
+  overflow: hidden;
+  border-radius: 10% 25% 18%;
+  width: 250px;
+  height: 250px;
+  margin: 17%;
+  position: relative;
+  text-align: center;
+  background-color: grey;
+  opacity: 80%;
+}
+
+.thumbnail:hover {
+  opacity: 50%;
+}
+
+.thumbnail-image {
+  max-width: 100%;
+}
+
+.thumbnail-title {
+  font-family: "Major Mono Display", monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: black;
+  position: absolute;
+  top: 33%;
+  z-index: +1;
+}
+
+.title {
+  font-family: "Major Mono Display", monospace;
+  font-size: 6vw;
+  position: relative;
+  top: 16vw;
+  left: 5vw;
+  z-index: +1;
+}
+
+.title-img {
+  width: 100%;
+  position: relative;
+  bottom: 4vw;
+  opacity: 90%;
+}
+
+.video {
+  margin: 10vw 5vw 5vw 0;
+}
+
+.welcome {
+  overflow: hidden;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1280px) {
+  .media-grid {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+
+  .body-text {
+    font-size: 3vw;
+  }
+
+  .contact-container {
+    padding: 20vw 15vw;
+  }
+
+  .continue {
+    bottom: 10vw;
+  }
+
+  .crop-title-img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .headphones-img {
+    padding-top: 15%;
+    padding-bottom: 0;
+  }
+
+  .home-comment {
+    font-size: 3.5vw;
+  }
+
+  .home-list {
+    padding-bottom: 12vw;
+    padding-left: 15px;
+  }
+
+  .home-subtitle {
+    font-size: 4vw;
+  }
+
+  .main-title {
+    font-size: 6vw;
+    padding-top: 5vw;
+  }
+
+  .media-grid {
+    padding: 0;
+  }
+
+  .subtitle {
+    font-size: 3vw;
+    padding-right: 15vw;
+  }
+
+  .title {
+    font-size: 8vw;
+    top: 18vw;
+  }
+
+  .title-img {
+    width: 105%;
+    bottom: 3vw;
+  }
+
+  .welcome-container {
+    margin-top: 10vh;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .about-comment {
+    padding: 15% 0;
+  }
+
+  .about-contact {
+    font-size: 2rem;
+    padding: 15% 0;
+  }
+
+  .about-text {
+    padding: 15% 0 20%;
+  }
+
+  .about-subtitle {
+    padding-top: 30%;
+  }
+
+  .body-text {
+    font-size: 1.3rem;
+  }
+
+  .contact {
+    height: 82vh;
+  }
+
+  .contact-container {
+    padding-top: 20vw;
+  }
+
+  .continue {
+    bottom: 5vw;
+  }
+
+  .dotted-line {
+    border-top: 2vw dotted #ff914d;
+  }
+
+  .home-comment {
+    font-size: 1.8rem;
+    padding: 20% 0;
+  }
+
+  .home-list {
+    padding-left: 0;
+  }
+
+  .home-title {
+    font-size: 1.75rem;
+  }
+
+  .home-subtitle {
+    padding-bottom: 15%;
+    font-size: 2rem;
+  }
+
+  .main {
+    font-size: 4.5vw;
+    padding-top: 7vw;
+  }
+
+  .main-title {
+    font-size: 9vw;
+  }
+
+  .media-grid {
+    padding-left: 10vw;
+  }
+
+  .subtitle {
+    font-size: 5vw;
+    left: 7vw;
+    bottom: 20vw;
+  }
+
+  .thumbnail {
+    margin: 10%
+  }
+
+  .title {
+    font-size: 13vw;
+    top: 23vw;
+  }
+
+  .title-img {
+    width: 115%;
+    bottom: 0;
+  }
+
+  .subtitle {
+    bottom: 25vw;
+  }
+
+  .video {
+    padding: 10% 0;
+  }
+
+  .welcome {
+    padding: 0;
+  }
+
+  .welcome-container {
+    margin-top: 25vh;
+  }
+}

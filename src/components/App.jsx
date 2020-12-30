@@ -5,11 +5,11 @@ import Fab from "@material-ui/core/Fab";
 import Box from "@material-ui/core/Box";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import usePersistedState from "./usePersistedState";
+// import usePersistedState from "./usePersistedState";
 
 function App() {
 
-  const [clicked, setClicked] = usePersistedState("clicked", "false");
+  const [clicked, setClicked] = React.useState(false);
 
   function handleClick() {
     setClicked(true);

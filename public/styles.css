@@ -200,13 +200,11 @@ li {
 .thumbnail {
   overflow: hidden;
   border-radius: 10% 25% 18%;
-  width: 250px;
-  height: 250px;
-  margin: 17%;
+  width: 80%;
+  margin: 10%;
   position: relative;
   text-align: center;
-  background-color: grey;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .thumbnail:hover {
@@ -214,17 +212,16 @@ li {
 }
 
 .thumbnail-image {
-  max-width: 100%;
+  height: 350px;
 }
 
 .thumbnail-title {
   font-family: "Major Mono Display", monospace;
-  font-weight: bold;
   font-size: 1.2rem;
-  color: black;
+  color: white;
   position: absolute;
   top: 33%;
-  z-index: +1;
+  padding: 0 10%;
 }
 
 .title {
@@ -401,7 +398,7 @@ li {
   }
 
   .thumbnail {
-    margin: 10%
+    margin: 5%
   }
 
   .title {

@@ -7,6 +7,7 @@ import RoadToBethlehem from "./RoadToBethlehem";
 import Oblivion from "./Oblivion";
 import IBelieve from "./IBelieve";
 import StarryNight from "./StarryNight";
+import Nude from "./Nude";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Hidden from "@material-ui/core/Hidden";
 import Button from "@material-ui/core/Button";
@@ -94,6 +95,7 @@ function Navbar() {
         <Route path="/oblivion" component={Oblivion} />
         <Route path="/ibelieveinfatherchristmas" component ={IBelieve} />
         <Route path="/starrynight" component={StarryNight} />
+        <Route path="/nude" component={Nude} />
       </div>
     </BrowserRouter>
   );

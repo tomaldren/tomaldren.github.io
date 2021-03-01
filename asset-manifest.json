@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2de6b08a.chunk.js",
+    "main.js.map": "/static/js/main.2de6b08a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ba6023e6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ba6023e6.js.map",
+    "static/js/2.4912a036.chunk.js": "/static/js/2.4912a036.chunk.js",
+    "static/js/2.4912a036.chunk.js.map": "/static/js/2.4912a036.chunk.js.map",
+    "index.html": "/index.html",
+    "static/media/alt-title-img.b5146be4.png": "/static/media/alt-title-img.b5146be4.png",
+    "static/media/father-christmas-thumb.b165b7f0.png": "/static/media/father-christmas-thumb.b165b7f0.png",
+    "static/media/father-christmas.8c7a1209.png": "/static/media/father-christmas.8c7a1209.png",
+    "static/media/logo.3ee3823c.png": "/static/media/logo.3ee3823c.png",
+    "static/media/nude-score.67c9d775.png": "/static/media/nude-score.67c9d775.png",
+    "static/media/nude.5d423965.png": "/static/media/nude.5d423965.png",
+    "static/media/oblivion.2ba9cc86.png": "/static/media/oblivion.2ba9cc86.png",
+    "static/media/piazzolla.2e9e6ff6.jpg": "/static/media/piazzolla.2e9e6ff6.jpg",
+    "static/media/road-to-bethlehem.cf4e91b9.png": "/static/media/road-to-bethlehem.cf4e91b9.png",
+    "static/media/rtb-score.fad3ca0e.png": "/static/media/rtb-score.fad3ca0e.png",
+    "static/media/shining-star-score.7530c25b.png": "/static/media/shining-star-score.7530c25b.png",
+    "static/media/shining-star.66d2c832.png": "/static/media/shining-star.66d2c832.png",
+    "static/media/starry-night-thumb.f6ef139d.png": "/static/media/starry-night-thumb.f6ef139d.png",
+    "static/media/starry-night.b8075468.png": "/static/media/starry-night.b8075468.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba6023e6.js",
+    "static/js/2.4912a036.chunk.js",
+    "static/js/main.2de6b08a.chunk.js"
+  ]
+}

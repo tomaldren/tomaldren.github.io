@@ -6,6 +6,7 @@ import piazzolla from "../img/piazzolla.jpg";
 import iBelieve from "../img/father-christmas-thumb.png";
 import starryNight from "../img/starry-night-thumb.png";
 import nude from "../img/nude.png"
+import shiningStar from "../img/shining-star.png"
 import Zoom from "@material-ui/core/Zoom";
 
 function Media(props) {
@@ -27,13 +28,22 @@ function Media(props) {
         <Zoom in={true} timeout={500}>
           <Grid item xs={12} sm={6} lg={4}>
             <Thumbnail
+              link="/shiningstar"
+              image={shiningStar}
+              title="shining star"
+            />
+          </Grid>
+        </Zoom>
+        <Zoom in={true} timeout={750}>
+          <Grid item xs={12} sm={6} lg={4}>
+            <Thumbnail
               link="/roadtobethlehem"
               image={roadToBethlehem}
               title="road to bethlehem"
             />
           </Grid>
         </Zoom>
-        <Zoom in={true} timeout={750}>
+        <Zoom in={true} timeout={1000}>
           <Grid item xs={12} sm={6} lg={4}>
             <Thumbnail
               link="/oblivion"
@@ -42,7 +52,7 @@ function Media(props) {
             />
           </Grid>
           </Zoom>
-          <Zoom in={true} timeout={1000}>
+          <Zoom in={true} timeout={1250}>
           <Grid item xs={12} sm={6} lg={4}>
             <Thumbnail
               link="/ibelieveinfatherchristmas"
@@ -51,7 +61,7 @@ function Media(props) {
             />
           </Grid>
           </Zoom>
-          <Zoom in={true} timeout={1250}>
+          <Zoom in={true} timeout={1500}>
           <Grid item xs={12} sm={6} lg={4}>
             <Thumbnail
               link="/starrynight"

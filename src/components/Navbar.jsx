@@ -8,6 +8,7 @@ import Oblivion from "./Oblivion";
 import IBelieve from "./IBelieve";
 import StarryNight from "./StarryNight";
 import Nude from "./Nude";
+import ShiningStar from "./ShiningStar";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import Hidden from "@material-ui/core/Hidden";
 import Button from "@material-ui/core/Button";
@@ -96,6 +97,7 @@ function Navbar() {
         <Route path="/ibelieveinfatherchristmas" component ={IBelieve} />
         <Route path="/starrynight" component={StarryNight} />
         <Route path="/nude" component={Nude} />
+        <Route path="/shiningstar" component={ShiningStar} />
       </div>
     </BrowserRouter>
   );

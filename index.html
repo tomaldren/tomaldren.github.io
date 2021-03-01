@@ -10,6 +10,28 @@
     <meta name="description" content="Musical Arragements from Conception to Post-Production" />
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="music, musical, arrangement, arrangements, music arrangement, musical arrangement, arangement, arangements, composer, composers, composition, compositions, strings, string, track, tracks, string track, string tracks, traction, tractionmusic, tracktion, violin, violins, viola, violas, cello, cellos, celli, orchestra, orchestral, backing, backing tracks, instrumental, instrumental tracks, instrumental backing, string orchestra, string quartet, Tom Aldren"  />
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
   </head>
 
   <body>

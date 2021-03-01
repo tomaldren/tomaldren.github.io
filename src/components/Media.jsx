@@ -30,7 +30,7 @@ function Media(props) {
             <Thumbnail
               link="/shiningstar"
               image={shiningStar}
-              title="shining star"
+              title="earth, wind & fire: shining star"
             />
           </Grid>
         </Zoom>
